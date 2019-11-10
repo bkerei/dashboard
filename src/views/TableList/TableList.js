@@ -115,6 +115,7 @@ export default function TableList() {
           <box>
           <img src={Pork} width= "50%"/>   
         </box>
+        <p><b>Image above is not avideo! Sorry for the confusion!</b></p>
               <p className={classes.description}>
               During my time at Trade Me I help advacte and education for the rewards process, were a merchant 
               gets a free t-shirt when they hit 500 postivie feedback. I was in charge of training and communicating 
@@ -131,11 +132,13 @@ export default function TableList() {
               where how and why of the projects prior to starting. I spent the 24 hours researching the impact that 
               These charges would make to the wider company. I also created Google slides and presented both projects to the whole company. 
               Due to the nature of these projects all information is located on the internal Jira system. I can pass on contact information for previous co-workers :)
+              </p>
               <p>
                 I also did some video content work while at Trade Me. I was part of a trio who interviewed crew on the set of 
-                the NZ movie <b>Pork Pie</b> in Feburary 2017. Just click <a href="https://newsroom.trademe.co.nz/articles/behind-the-scenes-of-pork-pie/">here.</a>
+                the NZ movie <b>Pork Pie</b> in Feburary 2017. Just click <a href="https://newsroom.trademe.co.nz/articles/behind-the-scenes-of-pork-pie/">here to have a look.</a>
               </p>
-              </p>
+           
+
           </CardBody>
         </Card>
       </GridItem>
