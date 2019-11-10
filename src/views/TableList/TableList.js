@@ -3,13 +3,15 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 // core components
 import Sup from "/Users/bobbikerei/Documents/GitHub/dashboard/src/assets/img/sup.png";
-//import Trademe from "/Users/bobbikerei/Documents/GitHub/dashboard/src/assets/img/trademe.png";
+import Trademe from "/Users/bobbikerei/Documents/GitHub/dashboard/src/assets/img/tim_80x80.png";
+import Pork from "/Users/bobbikerei/Documents/GitHub/dashboard/src/assets/img/pork.png";
 import GridItem from "components/Grid/GridItem.js";
 import GridContainer from "components/Grid/GridContainer.js";
 //import Table from "components/Table/Table.js";
 import Card from "components/Card/Card.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardBody from "components/Card/CardBody.js";
+
 
 const styles = {
   cardCategoryWhite: {
@@ -76,7 +78,7 @@ export default function TableList() {
         </Card>
       </GridItem>
       <GridItem xs={12} sm={12} md={12}>
-        <Card plain>
+        <Card>
           <CardHeader plain color="primary">
             <h4 className={classes.cardTitleWhite}>
               Address Verfication
@@ -87,7 +89,7 @@ export default function TableList() {
           </CardHeader>
           <CardBody>
           <box>
-          <img src={Sup} width= "50%"/>   
+          <img src={Trademe} width= "50%"/>   
         </box>
               <p className={classes.description}>
               I started at Trade Me in 2012 shortly after the process of Address Verfications was given to me. I learnt the process directly from the people who were doing it before and then
@@ -97,7 +99,9 @@ export default function TableList() {
               </p>
           </CardBody>
         </Card>
+
       </GridItem>
+
       <GridItem xs={12} sm={12} md={12}>
         <Card>
           <CardHeader color="primary">
@@ -108,8 +112,8 @@ export default function TableList() {
           </CardHeader>
        
           <CardBody>
-            <box>
-          <img src={Sup} width= "50%"/>         
+          <box>
+          <img src={Pork} width= "50%"/>   
         </box>
               <p className={classes.description}>
               During my time at Trade Me I help advacte and education for the rewards process, were a merchant 
@@ -126,6 +130,11 @@ export default function TableList() {
               I was in charge of communicating the what, 
               where how and why of the projects prior to starting. I spent the 24 hours researching the impact that 
               These charges would make to the wider company. I also created Google slides and presented both projects to the whole company. 
+              Due to the nature of these projects all information is located on the internal Jira system. I can pass on contact information for previous co-workers :)
+              <p>
+                I also did some video content work while at Trade Me. I was part of a trio who interviewed crew on the set of 
+                the NZ movie <b>Pork Pie</b> in Feburary 2017. Just click <a href="https://newsroom.trademe.co.nz/articles/behind-the-scenes-of-pork-pie/">here.</a>
+              </p>
               </p>
           </CardBody>
         </Card>
