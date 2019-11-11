@@ -115,7 +115,7 @@ export default function TableList() {
           <box>
           <img src={Pork} width= "50%"/>   
         </box>
-        <p><b>Image above is not avideo! Sorry for the confusion!</b></p>
+        <p><b>Image above is not a video! Sorry for the confusion!</b></p>
               <p className={classes.description}>
               During my time at Trade Me I help advacte and education for the rewards process, were a merchant 
               gets a free t-shirt when they hit 500 postivie feedback. I was in charge of training and communicating 
